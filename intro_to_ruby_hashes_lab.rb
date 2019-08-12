@@ -42,9 +42,11 @@ end
 
 
 a = {:good => 1}
-if a[:bad]
-  a[:bad] += 1
-else
+if a[:bad] = nil
   a[:bad] = 1
+  p "one"
+else
+  a[:bad] += 1
+  p "two"
 end
 p a
