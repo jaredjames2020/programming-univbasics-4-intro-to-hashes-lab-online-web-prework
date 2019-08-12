@@ -34,17 +34,8 @@ def update_counting_hash(hash, key)
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   # if the provided key is present, increment its value by 1
   if hash[key]
-    key += 1
+    hash[key] += 1
   else
-    key = 1
+    hash[key] = 1
   end
 end
-
-
-a = {:good => 1}
-if a[:bad]
-  a[:bad] += 1
-else
-  a[:bad] = 1
-end
-p a
