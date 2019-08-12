@@ -40,7 +40,7 @@ end
 update_counting_hash(:good, "joe")
 
 
-a = {:good => 1}
-if a[:bad] = nil
+a = {"good" => 1}
+if a["bad"] = nil
   puts "ok"
 end
