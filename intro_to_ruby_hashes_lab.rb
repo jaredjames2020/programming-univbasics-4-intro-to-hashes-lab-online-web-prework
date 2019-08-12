@@ -42,7 +42,7 @@ end
 
 
 a = {:good => 1}
-if a.has_key?(:bad)
+if a.has_key?(:good)
   #a[:bad] = 1
   p "one"
 else
