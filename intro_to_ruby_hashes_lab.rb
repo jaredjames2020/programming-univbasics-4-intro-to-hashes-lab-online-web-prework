@@ -43,10 +43,10 @@ end
 
 a = {:good => 1}
 if a.has_key?(:good)
-  #a[:bad] = 1
+  a[:good] += 1
   p "one"
 else
-  #a[:bad] += 1
+  a[:bad] = 1
   p "two"
 end
 p a
