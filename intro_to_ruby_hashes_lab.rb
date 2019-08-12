@@ -39,3 +39,12 @@ def update_counting_hash(hash, key)
     hash[key] = 1
   end
 end
+
+
+a = {:good => 1}
+if a[:bad]
+  a[:bad] += 1
+else
+  a[:bad] = 1
+end
+p a
