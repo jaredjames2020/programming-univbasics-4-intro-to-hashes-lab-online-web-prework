@@ -42,7 +42,7 @@ end
 
 
 a = {:good => 1}
-if a[:bad] = nil
+if a[:bad]
   #a[:bad] = 1
   p "one"
 else
