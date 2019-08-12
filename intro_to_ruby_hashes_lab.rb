@@ -43,8 +43,8 @@ end
 
 a = {:good => 1}
 if a[:bad]
-  :bad += 1
+  a[:bad] += 1
 else
-  :bad = 1
+  a[:bad} = 1
 end
 p a
