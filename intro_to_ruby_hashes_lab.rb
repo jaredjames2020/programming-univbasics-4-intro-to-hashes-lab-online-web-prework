@@ -36,4 +36,8 @@ def update_counting_hash(hash, key)
   if key
   hash[key] = 1
   
+  hash = {}
+  hash.fetch(key, 1) 
+  p hash
+  
 end
