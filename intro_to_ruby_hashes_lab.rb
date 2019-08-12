@@ -42,7 +42,7 @@ update_counting_hash(:good, "joe")
 
 a = {"good" => 1}
 if a["bad"]
-  puts "ok"
+  p "ok"
 else
-  puts "NAH"
+  p "NAH"
 end
