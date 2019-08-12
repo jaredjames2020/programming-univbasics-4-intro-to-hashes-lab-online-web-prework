@@ -37,3 +37,4 @@ def update_counting_hash(hash, key)
     puts "ok"
   end
 end
+update_counting_hash(:good, "joe")
